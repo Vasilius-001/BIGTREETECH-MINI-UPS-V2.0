@@ -1,14 +1,13 @@
 # BIGTREETECH-MINI-UPS-V2.0
-BigTree Technology Co., Ltd. developed this power failure module to detect a power failure during printing and ensuring the print can be resumed after power is returns.
+Компания BigTree Technology Co., Ltd. разработала этот модуль сбоя питания для обнаружения сбоя питания во время печати и обеспечения возможности возобновления печати после восстановления питания.
 
-BTT UPS 24V V1.0 is an external module of 3D printer with the function of power off resume print, which was launched by 3D printing
-team of Shenzhen Big Tree Technology CO., LTD. It is applicable to all 3D printers powered by DC24V switch power, such as Ender 3 printer.
+BTT UPS 24V V1.0 - это внешний модуль 3D-принтера с функцией возобновления печати при выключенном питании, который был создан командой 3D-печати из Shenzhen Big Tree Technology CO., LTD. Это применимо ко всем 3D-принтерам с питанием от источника постоянного тока 24 В, таким как принтер Ender 3.
 
-## Feature：
-- Adopt voltage comparator LM393 chip, which can detect power failure sensitively;
-- Equipped with 9 2.7V 5F super capacitors to store electricity, so that there is sufficient power supply after detecting the power failure, then the printer can
-successfully complete the corresponding operation.
-- An anti-reverse protection circuit is added at the power interface to prevent irreversible damage caused by the reverse power supply, which greatly protects the
-circuit board;
-- The module is small and easy to install;
-- Main function: realize the power off resume print function;
+<img align="cener" width=800 src="Images/BTT_UPS.jpg">
+
+## Особенность：
+- Добавлена микросхема компаратора напряжения LM393, которая может точно обнаруживать сбой питания;
+- Оснащен 9 суперконденсаторами 2,7V 5F для хранения электроэнергии, поэтому после обнаружения сбоя питания принтер может успешно завершить соответствующую операцию.
+- В интерфейс питания добавлена схема защиты от обратного подключения для предотвращения необратимых повреждений, вызванных обратным источником питания, что значительно защищает печатную плату;
+- Модуль небольшой и простой в установке;
+- Основная функция: реализовать функцию возобновления печати при отключении питания;
